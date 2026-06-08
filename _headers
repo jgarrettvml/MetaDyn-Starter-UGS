@@ -1,0 +1,23 @@
+# Netlify Headers for Unity WebGL Compression Support
+# Matches both direct and nested Build paths
+/Build/*.br
+  Content-Encoding: br
+/Build/*.js.br
+  Content-Type: application/javascript
+/Build/*.wasm.br
+  Content-Type: application/wasm
+/Build/*.data.br
+  Content-Type: application/octet-stream
+/Build/*.framework.js.br
+  Content-Type: application/javascript
+
+/Build/*.gz
+  Content-Encoding: gzip
+/Build/*.js.gz
+  Content-Type: application/javascript
+/Build/*.wasm.gz
+  Content-Type: application/wasm
+/Build/*.data.gz
+  Content-Type: application/octet-stream
+/Build/*.framework.js.gz
+  Content-Type: application/javascript
